@@ -1,0 +1,49 @@
+.icon-report {
+    padding: 14px 19px;
+    border-radius: 10px;
+    background: #9771df1a;
+}
+
+.icon-report i {
+    font-size: 20px;
+}
+
+.report .wp-block {
+    margin-left: 15px;
+}
+
+.report .wp-block .title-report {
+    font-weight: 700;
+}
+
+.report .wp-block .desc-report {
+    font-size: 14px;
+    color: rgb(75 167 179);
+}
+
+.report .p-2.bd-style-2.d-flex {
+    background: #92a3bd1a;
+}
+
+@media(max-width:976px) {
+    .icon-report {
+        padding: 9px 7px;
+    }
+}
+
+@media(max-width:450px) {
+    .title-traffic {
+        flex-wrap: wrap;
+    }
+    .title-traffic h2,
+    .title-traffic a {
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+}
+
+@media(max-width:365px) {
+    .report .wp-block {
+        margin-left: 5px;
+    }
+}

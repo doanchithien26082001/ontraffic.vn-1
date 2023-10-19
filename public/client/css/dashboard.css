@@ -1,0 +1,165 @@
+ /* SECTION NOTICATION */
+ 
+ .admin-avatar {
+     height: 50px;
+     width: auto;
+     margin-right: 20px;
+ }
+ 
+ .notication-time {
+     font-size: 14px;
+     opacity: 50%;
+ }
+ 
+ .notication-content p {
+     margin-bottom: 7px;
+ }
+ 
+ .notication-content h1,
+ .notication-content h2,
+ .notication-content h3,
+ .notication-content h4,
+ .notication-content h5,
+ .notication-content h6 {
+     font-size: 17px;
+ }
+ 
+ .notication-content img {
+     width: 100%;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border-radius: 5px;
+ }
+ 
+ table.level {
+     font-size: 14px;
+ }
+ 
+ table.level th,
+ table.level td {
+     padding: 5px 10px;
+ }
+ 
+ .icon-report {
+     padding: 14px 19px;
+     border-radius: 10px;
+     background: #9771df1a;
+ }
+ 
+ .icon-report i {
+     font-size: 20px;
+ }
+ 
+ .report .wp-block {
+     margin-left: 15px;
+ }
+ 
+ .report .wp-block .title-report {
+     font-weight: 700;
+ }
+ 
+ .report .wp-block .desc-report {
+     font-size: 14px;
+     color: rgb(75 167 179);
+ }
+ 
+ .report .p-2.bd-style-2.d-flex {
+     background: #92a3bd1a;
+ }
+ 
+ .select-url {
+     padding: 7px 10px 7px 13px !important;
+     border: 2px solid #d3d3eb;
+ }
+ 
+ .flex-colum {
+     flex-direction: column;
+ }
+ 
+ .bar {
+     width: 100%;
+     height: 100px;
+     margin-right: 5px;
+     background: #0000ffb5;
+ }
+ 
+ #report-container {
+     width: 100%;
+     overflow-y: auto;
+ }
+ 
+ .col-report {
+     box-sizing: content-box !important;
+     flex-basis: 40px;
+     border: 4px solid white;
+     text-align: center;
+ }
+ 
+ .col-report .date {
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ .col-report .bar {
+     margin-bottom: 3px;
+     margin-top: auto;
+     position: relative;
+ }
+ 
+ .col-report .bar::before {
+     position: absolute;
+     top: 5px;
+     left: 0;
+     width: 100%;
+     content: attr(data-traffic);
+     height: 20px;
+     color: #fff;
+     font-size: 11px;
+ }
+ /* Style scrollbar report */
+ 
+ .wp-report::-webkit-scrollbar {
+     height: 5px;
+ }
+ 
+ .wp-report::-webkit-scrollbar-track {
+     background: #eee6e6;
+     border-radius: 5px;
+ }
+ 
+ .wp-report::-webkit-scrollbar-thumb {
+     background: #8783f2;
+     border-radius: 5px;
+ }
+ 
+ .wp-report::-webkit-scrollbar-thumb:hover {
+     background: rgb(158, 119, 250)bab;
+ }
+ /* SECTION BLOB */
+ 
+ .list-posts-01 .thumbnail {
+     height: 0;
+     position: relative;
+     padding-bottom: 50%;
+     overflow: hidden;
+     background: red;
+     border-radius: 5px;
+ }
+ 
+ .list-posts-01 .thumbnail img {
+     position: absolute;
+     width: 100%;
+     height: auto;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .list-posts-01 .post-cat {
+     font-size: 14px;
+ }
+ 
+ .list-posts-01 .post-title {
+     color: #676767;
+     font-weight: 500;
+ }
